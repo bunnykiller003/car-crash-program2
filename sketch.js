@@ -1,23 +1,23 @@
-var zenia,tourus,cyclap;
+var b1,b2,b3;
 var wall
 function setup() {
   createCanvas(1600,400);
-zenia=createSprite(1100,100,30,30);
-tourus=createSprite(1100,200,30,30);
-cyclap=createSprite(1100,300,30,30);
+b1=createSprite(1100,100,30,30);
+b2=createSprite(1100,200,30,30);
+b3=createSprite(1100,300,30,30);
 wall=createSprite(50,200,10,600)
 }
 
 function draw() {
   background(255,255,255); 
-  zenia.shapeColor="red";
-  tourus.shapeColor="yellow";
-  cyclap.shapeColor="green";
-  zenia.velocityX=-55;
-  tourus.velocityX=-90;
-  cyclap.velocityX=-60;
+  b1.shapeColor="red";
+  b2.shapeColor="yellow";
+  b3.shapeColor="green";
+  b1.velocityX=-55;
+  b2.velocityX=-90;
+  b3.velocityX=-60;
   
-  if (zenia.x-wall.x<(zenia.width/2+wall.width/2)){
+  if (b1.x-wall.x(b1.width/2+wall.width/2)){
  zenia.velocityX=0
  zenia.shapeColor="green"
  
