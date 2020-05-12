@@ -17,7 +17,7 @@ function draw() {
   b2.velocityX=-90;
   b3.velocityX=-60;
   
-  if (b1.x-wall.x(b1.width/2+wall.width/2)){
+  if (b1.x-wall.x<(b1.width/2+wall.width/2)){
  zenia.velocityX=0
  zenia.shapeColor="green"
  
